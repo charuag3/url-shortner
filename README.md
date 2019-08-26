@@ -21,19 +21,19 @@ docker run -p 8080:8080 --name url-shortner --link mysql-standalone:mysql -d url
 
 Creating short URL:
 
-POST request should be made to URL : http://<hostname>:8080/createUrl
+POST request should be made to URL : http://(hostname):8080/createUrl
 
 Headers :
 
 content-type : application/json
 
-body : {"longUrl":"<any valid long url>"}
+body : {"longUrl":"(any valid long url)"}
 
 Calling shortURL:
 
-GET request should be made to URL : http://<hostname>:8080/<shortURL>
+GET request should be made to URL : http://(hostname):8080/<shortURL>
 
-** To know the health and basic statics of the application : http://<hostname>:8080/actuator**
+** To know the health and basic statics of the application : http://(hostname):8080/actuator**
 ## Credits
 
 Author: Charu Agarwal
