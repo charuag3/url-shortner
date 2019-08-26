@@ -1,4 +1,4 @@
-# Project Name
+# URL - SHORTNER
 
 This API is used to shorten a long URL and also to redirect shortened URL to the original long URL
 
